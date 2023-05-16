@@ -3,29 +3,31 @@ import logo from './logo.jpg' //Replace this image before complete
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <img src={logo} alt="logo" />
+            <a href="/">
+                <img src={logo} alt="logo" />
+            </a>
             <div className="links">
-                <a className="space"></a>
+                <div className="space"></div>
                 <a href="/">Home</a>
-                <a className="space"></a>
+                <div className="space"></div>
                 <div className="dropdown">
-                    <a className="dropbtn">About</a>
+                    <a href="/about" className="dropbtn">About</a>
                     <div className="dropdown-content">
                         <a href="/about">About Us</a>
                         <a href="/about/completed_projects">Completed Projects</a>
                         <a href="/about/community_support">Community Support</a>
                     </div>
                 </div>
-                <a className="space"></a>
+                <div className="space"></div>
                 <div className="dropdown">
-                    <a className="dropbtn">Services</a>
+                    <a href="/services" className="dropbtn">Services</a>
                     <div className="dropdown-content">
-                        <a href="/commercial_industrial">Commercial & Industrial Services</a>
-                        <a href="/specialty">Specialty & Other Services</a>
+                        <a href="/services/commercial_industrial">Commercial & Industrial Services</a>
+                        <a href="/services/specialty">Specialty & Other Services</a>
                     </div>
 
                 </div>
-                <a className="space"></a>
+                <div className="space"></div>
                 <a href="/careers">Careers</a>
             </div>
             <div>
