@@ -34,7 +34,7 @@ const Navbar = () => {
                 <a id="contact-btn" href="/contact">Contact Us!</a>
             </div>
         </nav>
-      );
+    );
 }
  
 export default Navbar;

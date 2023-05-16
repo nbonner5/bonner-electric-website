@@ -6,7 +6,12 @@
   color: #333;
 }
 
+body {
+  background-color: #dddddd;
+}
+
 .navbar {
+  background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
   padding: 10px;
@@ -19,7 +24,7 @@
 
 .navbar img {margin-left: 85px;}
 
-.navbar a.space {
+.navbar div .space {
   margin-left: 65px;
   text-decoration: none;
   padding: 6px;
@@ -87,4 +92,15 @@
 
 .content {
   max-width: 600px;
+}
+
+.footer {
+  background-color: #333;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
 }
