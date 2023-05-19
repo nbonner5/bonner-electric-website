@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
-import Home from './Home';
+import HomeFirst from './homepage/HomeFirstSection';
+import HomeSecond from './homepage/HomeSecondSection';
 import Footer from './Footer';
 
 function App() {
@@ -7,7 +8,10 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
-        <Home />
+        <div className="home-screen">
+          <HomeFirst />
+          <HomeSecond />
+        </div>
       </div>
       <Footer />
     </div>
